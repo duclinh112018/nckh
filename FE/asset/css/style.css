@@ -9,9 +9,10 @@ a {
 	text-decoration: none !important;
 	color: #313132;
 }
+strike {color: black;}
 body {
 	line-height:1;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Playfair Display', sans-serif;
 	background-color: black !important;
 	font-size: 14px;
 	margin: 0;
@@ -58,6 +59,7 @@ body {
 }
 #header {
 	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	background-color: transparent;
 	position: relative;
@@ -78,6 +80,7 @@ body {
 }
 .hidden_mns {
 	background-color: #fff;
+	border-bottom: 1px solid #f7f7f7;
 }
 #header ul.tdb li {
 	display: table-cell;
@@ -199,6 +202,84 @@ ul#ic-bar-top {
 	margin-bottom: 0;
     line-height: 22px;
 }
+
+
+/* /////////////// INTRODUCE PAGE \\\\\\\\\\\\\\\ */
+
+#content-introduce {background-color: white;}
+.wrap-about h2, .wrap-about .des_crs {text-align: center;}
+.page-title-head {padding-top: 50px;
+    margin-bottom: 50px;}
+.wrap-about {padding-bottom: 60px;}
+.wrap-about .row_dfs_ct p {
+	font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    color: black;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: justify;
+}
+.iframe {width: 100%;}
+/* /////////////// END INTRODUCE PAGE \\\\\\\\\\\\\\\ */
+
+
+/* ///////////////  ALL PRODUCT PAGE \\\\\\\\\\\\\\\ */
+
+#content-product-all {
+	background-color: white;
+}
+.sort-box.product-sort {    
+	width: 100%;
+	margin-bottom: 40px;
+ }
+
+ .sort-box label {
+ 	font-weight: 400;
+    margin-right: 10px;
+    float: left;
+    line-height: 34px;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: relative;
+    top: 1px;
+ }
+#product-filter {
+	font-size: 13px;
+}
+.list-item-div {font-family: 'Open Sans', sans-serif; }
+#product-filter:focus {border: 1px solid #ced4da; box-shadow: 0 0 0 0;}
+.product-thumbnail-wrap img {max-width: 100%;}
+.product-content .product-name {font-size: 16px;}
+.product-item .product-item-hot-tag.tag-right {
+	left: auto;
+    right: 25px;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+.product-item .product-item-hot-tag {
+	position: absolute;
+    top: 5px;
+    left: 25px;
+    color: white;
+    background: #a21a34;
+    z-index: 0;
+}
+.color-red {color: #fb3c4a!important;}
+.btn-item-viewmore {
+	font-size: 13px;
+	padding: 5px 20px;
+}
+.btn-default {
+	color: #fff;
+    background-color: #181818;
+    border-color: #131313;
+}
+/* /////////////// END ALL PRODUCT PAGE \\\\\\\\\\\\\\\ */
+
 
 
 

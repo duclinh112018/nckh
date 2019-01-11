@@ -1,8 +1,6 @@
 $(document).ready(function(){
 	$('#search-box').hide();
-	var check = true;
 	$(".collapse").collapse('hide');
-	visitedMenu(check);
 	checkEnable = false;
 	checkEnableMenu = false;
 	$('.slider-slick').slick({
@@ -44,12 +42,13 @@ $(document).ready(function(){
         // instead of a settings object
       ]
     });
+
 });
 
 function visitedMenu(btn) {
 	if (btn == true) {
 		$('#header').hover(		
-	       function fat() {
+	        function fat() {
 	          $(this).css({"background-color":"#fff"});
 	          $('.ic-menu').css('background-image',"url('asset/images/bar-black.png')");
 	          $('#logo-ic img').attr('src','asset/images/logo/logo-black.png');
@@ -69,6 +68,14 @@ function visitedMenu(btn) {
 	          $('.ic-user').css('background-image',"url('asset/images/ic-user.png')");
 	       }
 	    );
+	} else if (btn == false) {
+		$('#header').css({"background-color":"#fff"});
+		$('.ic-menu').css('background-image',"url('asset/images/bar-black.png')");
+		$('#logo-ic img').attr('src','asset/images/logo/logo-black.png');
+		$('#name_mjf').css('color', 'black');
+		$('.ic-search').css('background-image',"url('asset/images/ic-search-black.png')");
+		$('.ic-cast').css('background-image',"url('asset/images/ic-cast-black.png')");
+		$('.ic-user').css('background-image',"url('asset/images/ic-user-black.png')");	
 	}
 }
 
